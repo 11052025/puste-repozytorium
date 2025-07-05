@@ -1,0 +1,44 @@
+ *, *::before, *::after {
+     box-sizing: border-box;
+ }
+
+body {
+  font-family: Georgia, serif;
+  background-color: #fff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.author {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.poem p {
+  margin-bottom: 25px;
+}
+
+.poem em {
+  font-style: italic;
+}
+
+.source {
+  font-size: 14px;
+  margin-top: 40px;
+  color: #444;
+}
